@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{i as t,l as n,m as r}from"./db-B8ox9yZD.js";var i=e(r(),1);function a(e){let[r,a]=(0,i.useState)([]);return(0,i.useEffect)(()=>{e&&t(`schools`,[n(`districtId`,`==`,e)]).then(e=>a([...e].sort((e,t)=>e.number-t.number))).catch(()=>a([]))},[e]),r}export{a as t};
